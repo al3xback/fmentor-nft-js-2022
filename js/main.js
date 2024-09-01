@@ -1,7 +1,7 @@
 const cardEl = document.querySelector('.card');
 
 /* Array at() */
-const amounts = [0.039, 0.040, 0.041];
+const amounts = [0.039, 0.04, 0.041];
 const ethereumAmount = amounts.at(2);
 
 const cardStatusItemEls = cardEl.querySelectorAll('.card__stats-list-item');
